@@ -4,7 +4,7 @@
 set -e
 
 echo "Beginning Cmake"
-cmake -S . -B ./build -DCMAKE_BUILD_TYPE=Release
+cmake -S . -B ./build
 
 echo "Beginning Make"
 make -C ./build/
