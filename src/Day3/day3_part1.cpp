@@ -23,7 +23,7 @@ auto printv = [](std::vector<std::pair<int, int>>& v){
 auto pair_mul = [](std::pair<int, int> p) -> int { return p.first * p.second; };
 
 int main() {
-    const std::string filename = "day3_input.txt";
+    const std::string filename = "day3_input_example.txt";
 
     std::ifstream file;
     file.open(filename, std::ifstream::in);
@@ -31,7 +31,6 @@ int main() {
         std::cout << "File failed to open";
         exit(1);
     }
-
 
     std::string line{};
     int sum{0};
